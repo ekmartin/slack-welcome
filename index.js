@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const checkEnv = require('check-env');
 const { RTM_EVENTS, RtmClient, WebClient } = require('@slack/client');
 
