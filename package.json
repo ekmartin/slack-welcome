@@ -1,6 +1,6 @@
 {
   "name": "slack-welcome",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Sends a welcome message to new Slack users",
   "main": "index.js",
   "bin": "index.js",
