@@ -1,8 +1,9 @@
 {
   "name": "slack-welcome",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Sends a welcome message to new Slack users",
   "main": "index.js",
+  "bin": "index.js",
   "scripts": {
     "test": "eslint . --ignore-path .gitignore",
     "start": "node index"
