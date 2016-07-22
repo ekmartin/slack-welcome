@@ -1,0 +1,21 @@
+{
+  "name": "slack-welcome",
+  "version": "0.1.0",
+  "description": "Sends a welcome message to new Slack users",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint . --ignore-path .gitignore",
+    "start": "node index"
+  },
+  "author": "Martin Ek <mail@ekmartin.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/client": "^3.5.1",
+    "check-env": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.1.1",
+    "eslint-config-airbnb-base": "^4.0.2",
+    "eslint-plugin-import": "^1.11.1"
+  }
+}
